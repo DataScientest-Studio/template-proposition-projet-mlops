@@ -2,6 +2,7 @@
 
 <details>
   <summary>FR</summary>
+
 ## Introduction
 Ce guide vous aidera à structurer votre proposition de projet MLOps en mettant l'accent sur les aspects MLOps plutôt que sur les détails de Data Science. L'objectif est de présenter un projet qui puisse être évalué pour son intégration dans le catalogue de projets de formation.
 
@@ -101,119 +102,101 @@ Ce guide vous aidera à créer une proposition solide axée sur MLOps, adaptée 
 
 <details>
   <summary>EN</summary>
-  Below is the English translation of your text, along with a clear step-by-step explanation.
 
-Step-by-Step Explanation
-	1.	Introduction: I translated the title and introductory sentences to explain that this guide helps structure an MLOps project proposal with an emphasis on MLOps aspects rather than detailed Data Science specifics.
-	2.	Defining MLOps: I translated the definition of MLOps and its key points, ensuring that technical terms and bullet points (like code management, CI/CD, containerization, etc.) are clearly converted into equivalent English terms.
-	3.	Proposal Structure: I maintained the numbering and bullet lists, translating each section heading (such as Project Title, Summary, etc.) and their instructions in simple English words.
-	4.	Examples and Advice: I translated examples like reducing deployment time or automating pipelines and kept the language clear and straightforward.
-	5.	Final Guidance: I ensured that the concluding advice and risk evaluation strategies are accurately reflected in English.
+## Introduction
+This guide will help you structure your MLOps project proposal by focusing on MLOps aspects rather than Data Science details. The objective is to present a project that can be evaluated for inclusion in the training projects catalog.
 
-English Translation
+## What is MLOps?
+MLOps (Machine Learning Operations) is an approach that aims to standardize and simplify the development, deployment, and maintenance of machine learning systems.
 
-Introduction
+As a reminder, here are some important MLOps points:
+1. Code and model management
+   * Versioning tools (e.g., Git, DVC)
+   * Branching and collaboration strategy
+2. Automation and CI/CD
+   * Continuous integration pipeline
+   * Automated testing (data, model, integration)
+   * Continuous deployment
+3. Containerization and orchestration
+   * Use of Docker for model encapsulation
+   * Orchestration with Kubernetes or alternatives
+4. Monitoring and logging
+   * Tools for tracking model performance
+   * Alert system for drift detection
+   * Log centralization
+5. Reproducibility
+   * Dependency management (e.g., conda, poetry)
+   * Versioning of training data
+6. Governance and security
+   * Access and secrets management
+   * Traceability of model decisions
+   * Compliance with regulations (if applicable)
 
-This guide will help you structure your MLOps project proposal by focusing on MLOps aspects rather than the details of Data Science. The goal is to present a project that can be evaluated for its integration into the training projects catalog.
+## Proposal Structure
 
-What is MLOps?
-
-MLOps (Machine Learning Operations) is an approach aimed at standardizing and simplifying the development, deployment, and maintenance of machine learning systems.
-
-As a reminder, here are some key points about MLOps:
-	1.	Code and Model Management
-	•	Versioning tools (e.g., Git, DVC)
-	•	Branching strategy and collaboration
-	2.	Automation and CI/CD
-	•	Continuous integration pipeline
-	•	Automated tests (data, model, integration)
-	•	Continuous deployment
-	3.	Containerization and Orchestration
-	•	Using Docker to encapsulate models
-	•	Orchestration with Kubernetes or an alternative
-	4.	Monitoring and Logging
-	•	Tools for tracking model performance
-	•	Alert system for drift detection
-	•	Centralized logging
-	5.	Reproducibility
-	•	Dependency management (e.g., conda, poetry)
-	•	Versioning of training data
-	6.	Governance and Security
-	•	Access and secrets management
-	•	Traceability of model decisions
-	•	Compliance with regulations (if applicable)
-
-Proposal Structure
-
-1. Project Title
-
+### 1. Project Title
 Choose a title that highlights the MLOps aspect of your project.
 
-2. Summary (150-200 words)
-
+### 2. Summary (150-200 words)
 Briefly present:
-	•	The project context (type of ML model already developed)
-	•	The MLOps challenges the project aims to address
-	•	The main MLOps objectives of the project
-	•	The expected impact on the ML development and deployment process
+* The project context (type of ML model already developed)
+* The MLOps challenges the project aims to solve
+* The main MLOps objectives of the project
+* The expected impact on the ML development and deployment process
 
-3. MLOps Context and Problem Statement
-	•	Briefly describe the existing ML model (without delving into technical Data Science details)
-	•	Identify current challenges in the ML model lifecycle:
-	•	Reproducibility
-	•	Updating and versioning
-	•	Deployment
-	•	Monitoring
-	•	Team collaboration
-	•	Explain why an MLOps approach is necessary for this specific project
+### 3. MLOps Context and Challenge
+* Briefly describe the existing ML model (without delving into Data Science technical details)
+* Identify the current challenges in the ML model lifecycle:
+   * Reproducibility
+   * Updating and versioning
+   * Deployment
+   * Monitoring
+   * Team collaboration
+* Explain why an MLOps approach is necessary for this specific project
 
-4. MLOps Project Objectives
-
+### 4. MLOps Project Objectives
 List 3-5 specific, measurable, and relevant MLOps objectives.
 Examples:
-	•	Reduce model deployment time from X to Y days
-	•	Automate X% of the testing and deployment pipeline
-	•	Implement a drift detection system with a response time of X hours
+* Reduce model deployment time from X to Y days
+* Automate X% of the testing and deployment pipeline
+* Implement a drift detection system with a response time of X hours
 
-5. MLOps Technical Architecture
-	•	Present a detailed diagram of the proposed MLOps architecture showing the key components (if available)
+### 5. MLOps Technical Architecture
+* Present a detailed diagram of the proposed MLOps architecture showcasing the key components (if available)
 
-6. GitHub POC, Data Sources, and Useful Resources
-	•	Provide a link to a GitHub POC of your project
-	•	List the data sources you plan to use (ensure they are free and open source)
-	•	Mention any useful resources for understanding or implementing your project (articles, tutorials, documentation)
+### 6. GitHub POC, Data Sources, and Useful Resources
+* Provide a link to a GitHub POC of your project
+* List the data sources you plan to use (ensure they are free and open source)
+* Mention any useful resources for understanding or implementing your project (articles, tutorials, documentation)
 
-7. Risk Assessment and Mitigation Strategies
-
-Identify risks specific to the MLOps project and propose mitigation strategies.
+### 7. Risk Assessment and Mitigation Strategies
+Identify the specific risks related to the MLOps project and propose mitigation strategies.
 Example:
-	•	Risk: Resistance to change from teams
-	•	Mitigation: Training plan and demonstration of short-term benefits
+* Risk: Resistance to change from teams
+* Mitigation: Training plan and demonstration of short-term benefits
 
-8. Success Metrics
+### 8. Success Metrics
+Define specific MLOps KPIs:
+* Model deployment time
+* Frequency of successful updates
+* Average time for problem detection and resolution
+* Automation rate of the pipeline
 
-Define KPIs specific to MLOps:
-	•	Model deployment time
-	•	Frequency of successful updates
-	•	Average time to detect and resolve issues
-	•	Pipeline automation rate
-
-9. Potential for Integration into the Project Catalog
-
+### 9. Potential for Integration into the Projects Catalog
 Explain why this project would be a good addition to the catalog:
-	•	MLOps skills covered
-	•	Applicability to other contexts or industries
-	•	Potential for project evolution and extension
+* Covered MLOps skills
+* Applicability to other contexts or industries
+* Potential for project evolution and expansion
 
-10. Conclusion
-
+### 10. Conclusion
 Summarize the key points of your proposal and reaffirm the importance of the MLOps approach for this project.
 
-Evaluation Tips
-	•	Emphasize the practical and applicable aspects of the MLOps project
-	•	Demonstrate an in-depth understanding of MLOps principles and tools
-	•	Show how the project addresses common challenges in ML model production
-	•	Highlight the educational potential of the project for other learners
+## Evaluation Tips
+* Emphasize the practical and applicable aspects of the MLOps project
+* Demonstrate a thorough understanding of MLOps principles and tools
+* Show how the project addresses common challenges in ML model production
+* Highlight the educational potential of the project for other learners
 
-This guide will help you create a strong MLOps-focused proposal, suitable for evaluation and potential integration into a training project catalog.
+This guide will help you create a solid proposal focused on MLOps, suitable for evaluation and potential inclusion in a training projects catalog.
+
 </details>
